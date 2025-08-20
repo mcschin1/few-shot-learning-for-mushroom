@@ -1,33 +1,4 @@
 # Easy Few-Shot Learning
-![Python Versions](https://img.shields.io/pypi/pyversions/easyfsl?logo=python&logoColor=white&style=for-the-badge)
-![License: MIT](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
-![CircleCI](https://img.shields.io/circleci/build/github/sicara/easy-few-shot-learning?logo=circleci&style=for-the-badge)
-![PyPi Downloads](https://img.shields.io/pypi/dm/easyfsl?logo=pypi&logoColor=white&style=for-the-badge)
-![Last Release](https://img.shields.io/github/release-date/sicara/easy-few-shot-learning?label=Last%20Release&logo=pypi&logoColor=white&style=for-the-badge)
-![Github Issues](https://img.shields.io/github/issues-closed/sicara/easy-few-shot-learning?color=green&logo=github&style=for-the-badge)
-
-Ready-to-use code and tutorial notebooks to boost your way into few-shot image classification. 
-This repository is made for you if:
-
-- you're new to few-shot learning and want to learn;
-- or you're looking for reliable, clear and easily usable code that you can use for your projects.
-
-Don't get lost in large repositories with hundreds of methods and no explanation on how to use them. Here, we want each line
-of code to be covered by a tutorial.
-## What's in there?
-
-### Notebooks: learn and practice
-You want to learn few-shot learning and don't know where to start? Start with our tutorials.
-
-| Notebook                                                                                       | Description                                                                                                                                                                                  | Colab                                                                                                                                                                                                              |
-|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [First steps into few-shot image classification](notebooks/my_first_few_shot_classifier.ipynb) | Basically Few-Shot Learning 101, in less than 15min.                                                                                                                                         | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sicara/easy-few-shot-learning/blob/master/notebooks/my_first_few_shot_classifier.ipynb)      |
-| [Example of episodic training](notebooks/episodic_training.ipynb)                              | Use it as a starting point if you want to design a script for episodic training using EasyFSL.                                                                                               | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sicara/easy-few-shot-learning/blob/master/notebooks/episodic_training.ipynb)                 |
-| [Example of classical training](notebooks/classical_training.ipynb)                            | Use it as a starting point if you want to design a script for classical training using EasyFSL.                                                                                              | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sicara/easy-few-shot-learning/blob/master/notebooks/classical_training.ipynb)                |
-| [Test with pre-extracted embeddings](notebooks/inference_with_extracted_embeddings.ipynb)      | Most few-shot methods use a frozen backbone at test-time. With EasyFSL, you can extract all embeddings for your dataset once and for all, and then perform inference directly on embeddings. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sicara/easy-few-shot-learning/blob/master/notebooks/inference_with_extracted_embeddings.ipynb) |
-
-### Code that you can use and understand
-
 **State-Of-The-Art Few-Shot Learning methods:**
 
 With 11 built-in methods, EasyFSL is the most comprehensive open-source Few-Shot Learning library!
@@ -207,5 +178,4 @@ To reproduce:
 2. Extract all embeddings from the test sets of all datasets with `make extract-all-features-with-resnet12`.
 3. Run the evaluation scripts with `make benchmark-mini-imagenet` (resp. `tiered`).
 
-All parts of the content are adapted from the repository by Sicara:  
-[https://github.com/sicara](https://github.com/sicara)
+The content are adapted from the repository by Sicara:  [https://github.com/sicara](https://github.com/sicara)
