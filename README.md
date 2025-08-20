@@ -206,3 +206,6 @@ To reproduce:
    and save them under `data/models/feat_resnet12_mini_imagenet.pth` (resp. `tiered`).
 2. Extract all embeddings from the test sets of all datasets with `make extract-all-features-with-resnet12`.
 3. Run the evaluation scripts with `make benchmark-mini-imagenet` (resp. `tiered`).
+
+All parts of the content are adapted from the repository by Sicara:  
+[https://github.com/sicara](https://github.com/sicara)
